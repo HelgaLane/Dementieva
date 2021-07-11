@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .block{
+            width: 15em;
+            background-color: cadetblue;
+            float: left;
+        }
+        .all{
+            display: flex;
+            flex-direction: column;
+        }
+        .st{
+            background-color: darkgray;
+            margin-bottom: 2em;
+            
+        }
+        .icon{
+            float: right;
+            display: inline;
+
+            
+        }
+        .x{
+            clear: both;
+        } 
+        .footre{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="block">
+        <ul><h3>Блок навигации</h3>
+            <li>Ширина 15em</li>
+            <li>Должен присутствовать цвет фона</li>
+            <li>Располагается слева</li>
+            <li>Блок навигации наполните контентом достаточным, чтобы по высоте он начинал захватывать вторую статью, как показано в данном примере</li>
+        </ul>
+    </div>
+    <div class="all">
+        <div class="st"><h3>Статья 1</h3>Размер блока: <br>
+            Занимает всю доступную ширину<br>
+            Должен присутствовать цвет фона<br>
+            Во всех "статьях" сделайте отступ снизу от соседей равный 2 em</div>
+        <div class="st"><h3>Статья 2</h3>Размер блока: <br>
+            Занимает всю доступную ширину<br>
+            Должен присутствовать цвет фона<br>
+            Во всех "статьях" сделайте отступ снизу от соседей равный 2 em <br>
+            <img class="icon" src="img/icon_mail.png" alt="img">
+            <div class="x"></div>
+        </div>
+    </div>
+    <div class="footre">Нижний блок занимает всю доступную ширину</div>
+</body>
+</html>
