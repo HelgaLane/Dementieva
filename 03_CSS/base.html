@@ -11,66 +11,67 @@
             padding: 0px;
             box-sizing: border-box;
         }
-        div{
+        .main{
             width: 100px;
             border-style: solid;
             background-color: beige;
             border-radius: 3px;
-            float: left;
+            position: relative;
+            display: inline-block           
             
         }
-        ul{
+        .menu{
             display: none;
-            position: absolute;
+            
         }
-        ul:hover{
+        .munu:hover{
             display: block;
         }
         @media all and (max-width: 660px){
-            div{
+            .main{
                 float: none;
             }
         }
     </style>
 </head>
 <body>
-    <div>Понедельник
-        <ul>
+    <div class="main">Понедельник
+        <ul class="menu">
             <li>Завтрак</li>
             <li>Обед</li>
             <li>Ужин</li>
         </ul>
     </div>
-    <div>Вторник
-        <ul>
+    <div class="main">Вторник
+        <ul class="menu">
             <li>Завтрак</li>
             <li>Обед</li>
             <li>Ужин</li>
         </ul>
     </div>
-    <div>Среда
-        <ul>
+    <div class="main">Среда
+        <ul class="menu">
             <li>Завтрак</li>
             <li>Обед</li>
             <li>Ужин</li>
         </ul>
     </div>
-    <div>Четверг
-        <ul>
+    <div class="main">Четверг
+        <ul class="menu">
             <li>Завтрак</li>
             <li>Обед</li>
             <li>Ужин</li>
         </ul>
     </div>
-    <div>Пятница
-        <ul>
+    <div class="main">Пятница
+        <ul class="menu">
             <li>Завтрак</li>
             <li>Обед</li>
             <li>Ужин</li>
         </ul>
     </div>
-    <div>Суббота
-        <ul>
+    <div class="main">Суббота
+        <ul class="menu">
             <li>Завтрак</li>
             <li>Обед</li>
             <li>Ужин</li>
